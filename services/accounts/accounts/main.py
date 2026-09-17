@@ -14,9 +14,7 @@ from accounts.schemas import HealthRead
 
 app = FastAPI(
     title="Сервис клиентов",
-    description=(
-        "Пример реализации сервиса для предмета DevOps практики. "
-    ),
+    description=("Пример реализации сервиса для предмета DevOps практики. "),
     version="0.1.0",
 )
 
